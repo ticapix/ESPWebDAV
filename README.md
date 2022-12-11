@@ -16,8 +16,8 @@ GCode can be directly uploaded from the slicer (Cura) to this remote drive, ther
 
 ## Dependencies:
 
-1. [ESP8266 Arduino Core version 2.4](https://github.com/esp8266/Arduino)
-2. [SdFat library](https://github.com/greiman/SdFat)
+1. [ESP8266 Arduino Core version 2.4](https://github.com/esp8266/Arduino)-2.4.*
+2. [SdFat library](https://github.com/greiman/SdFat)-1.1.*
 
 ## Use:
 
@@ -29,15 +29,17 @@ If you don't want to update the firmware. You don't need to do this. Compile and
 
 - Open the project
   
-  Download this project and open it with [arduino](https://www.arduino.cc/) software.
+  - Download this project
+  - Rename the folder containing `ESPWebDAV.ino` to `ESPWebDAV`
+  - Open it with [arduino](https://www.arduino.cc/) software.
 
 - Add board manager link
   
-  Add boards manager link: `https://arduino.esp8266.com/stable/package_esp8266com_index.json` to File->Preferences board manager, Documentation: https://arduino-esp8266.readthedocs.io/en/2.7.1/ 
+  - Add boards manager link: `https://arduino.esp8266.com/stable/package_esp8266com_index.json` to File->Preferences board manager, Documentation: https://arduino-esp8266.readthedocs.io/en/2.7.1/ 
 
 - Select board
   
-  Select Tools->boards->Generic ESP8285 Module.
+  - Select Tools->boards->Generic ESP8285 Module.
 
 - Click the Arduino compile button
 
